@@ -21,4 +21,11 @@ cliquer sur crée web app
 remplir le nom
 execution stack : python 3.10
 laisser tout par default 
-sauf au niveau de deployment : Basic Authentication : Enable.
+sauf au niveau de deployment : Basic Authentication : Enable. /!\
+il faut télécharge le profile azure pour cela cliquer sur "Download azure profile"
+
+Étape 4 : Création de la pipeline CI/CD sur GitHub Actions
+allez dans le menu action 
+rechercher
+
+
