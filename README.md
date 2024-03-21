@@ -23,48 +23,49 @@ Ce projet est un prototype réalisé dans le cadre de l'implémentation d'une pi
 - Un compte GitHub
 - Un compte Azure
 
-Étape 1 : Création d'un dépôt Git sur GitHub
-Ce connectez à votre compte GitHub.
+Étape 1 : création d'un dépôt Git sur GitHub
+Se connecter à votre compte GitHub.
 Cliquez sur le bouton "+" dans le coin supérieur droit de la page et sélectionnez "New repository".
 Remplissez les détails du nouveau dépôt (nom, description, visibilité, etc.).
 Cliquez sur "Create repository" pour créer le dépôt.
 
 Étape 2 : Configuration du projet Flask
-Créez un nouveau répertoire sur votre machine sur virtual studio code pour le projet Flask.
+Créez un nouveau répertoire sur votre machine sur virtuel studio code pour le projet Flask.
 Placez les fichiers app.py, test_app.py, et requirements.txt dans ce répertoire
 
 Installez les dépendances :
 pip install -r requirements.txt
 
-Étape 3 : Création d'une Azure Web App
+Étape 3 : création d'une Azure Web App
 Connectez-vous au portail Azure.
 Cliquez sur "Create a resource" dans le coin supérieur gauche.
-cliquer sur crée web app
-remplir le nom
-execution stack : python 3.10
-laisser tout par default 
-sauf au niveau de deployment : Basic Authentication : Enable. /!\
-il faut télécharge le profile azure pour cela cliquer sur "Download azure profile"
+Cliquer sur crée web app
+Remplir le nom
+Exécution stack : python 3.10
+Laisser tout par default 
+Sauf au niveau de deployment : Basic Authentication : Enable. /!\
+Il faut télécharger le profile azure pour cela cliquer sur "Download azure profile"
 
-Étape 4 : Création de la pipeline CI/CD sur GitHub Actions
-allez dans le menu action 
-rechercher python web app azure 
-puis cliquer sur configuré
-il faut maintenent changer le nom dans le code et le langage mettre en python3.10
+Étape 4 : création de la pipeline CI/CD sur GitHub Actions
+Allez dans la menue action 
+Rechercher python web app azure 
+Puis cliquer sur configuré
+Il faut maintenant changer le nom dans le code et le langage mettre en python3.10
 
-Etape 5 : créé une action secret
-dans settings, action et variable
-dans action, cliquer sur "new secret" nommé le fichier au même nom que dans le fichier yml
-puis coller le fichier que nous avons télécharger précedament "azure profile"
-puis sauvegarder
+Étape 5 : créez une action secret.
+Dans le sitting, action et variable
+Dans l'action, cliquer sur "new secret" nommé le fichier au même nom que dans le fichier yml
+Puis coller le fichier que nous avons télécharger précédemment "azure profile"
+Puis sauvegarder
 
-Etape 6:Exécuter le CI/CD
-allez dans action on voie que une action est entrain de ce faire
-attendre qu'elle finisse puis allez sur la page web azure.
+Étape 6 : exécuter le CI/CD
+Allez dans le menu action, on voit qu'une action est en train de se faire
+Attendre qu'elle finisse puis va sur la page web azure.
 
-Etape 7 : changer le code de app.py
-change le 
+Étape 7 : Changer le code de app.py
+Change le code pour afficher un autre texte. 
+Puis sauvegarder 
+Dans la menue action, il va avoir une action qui se fait automatiquement. 
+Puis rafraîchir la page 
 
-
-
-
+FIN
