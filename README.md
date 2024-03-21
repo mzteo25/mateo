@@ -67,5 +67,4 @@ Change le code pour afficher un autre texte.
 Puis sauvegarder 
 Dans la menue action, il va avoir une action qui se fait automatiquement. 
 Puis rafraîchir la page 
-
 FIN
