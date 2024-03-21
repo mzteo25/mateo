@@ -52,7 +52,18 @@ rechercher python web app azure
 puis cliquer sur configuré
 il faut maintenent changer le nom dans le code et le langage mettre en python3.10
 
-Etape 5 : 
+Etape 5 : créé une action secret
+dans settings, action et variable
+dans action, cliquer sur "new secret" nommé le fichier au même nom que dans le fichier yml
+puis coller le fichier que nous avons télécharger précedament "azure profile"
+puis sauvegarder
+
+Etape 6:Exécuter le CI/CD
+allez dans action on voie que une action est entrain de ce faire
+attendre qu'elle finisse puis allez sur la page web azure.
+
+Etape 7 : changer le code de app.py
+change le 
 
 
 
